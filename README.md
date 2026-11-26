@@ -49,7 +49,6 @@ flowchart LR
 ```
 
 Each stage has one job: cleaning makes the data trustworthy, the relational database stores it without redundancy and with enforced integrity, and Power BI makes it understandable.
-
 ## Tech stack
 
 | Tool | Role in the project |
@@ -65,11 +64,7 @@ Each stage has one job: cleaning makes the data trustworthy, the relational data
 | pgAdmin | Validation queries on the loaded data |
 | Power BI + DAX | Data model, measures and dashboard |
 | Visual Studio Code | Development environment |
-| Docker | Second PostgreSQL with the pgvector extension (RAG extension) |
-| pgvector | Vector column, cosine search and HNSW index (RAG extension) |
-| sentence-transformers | Multilingual embeddings with `intfloat/multilingual-e5-small` (RAG extension) |
-| Ollama + Qwen3 4B | Local language model that writes the answers (RAG extension) |
-| Streamlit | Demo page (RAG extension) |
+
 
 ## Data model
 
