@@ -45,7 +45,7 @@ flowchart LR
     B --> C[Cleaned Excel files<br/>bua_cleaned.xlsx<br/>buf_cleaned.xlsx]
     C --> D[ETL<br/>Python + psycopg2]
     D --> E[(PostgreSQL<br/>sigb_db)]
-    E --> F[Power BI<br/>model, DAX, dashboard]
+    E --> F[Power BI dashboard]
 ```
 
 Each stage has one job: cleaning makes the data trustworthy, the relational database stores it without redundancy and with enforced integrity, and Power BI makes it understandable.
