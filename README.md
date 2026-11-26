@@ -62,7 +62,7 @@ Each stage has one job: cleaning makes the data trustworthy, the relational data
 | python-dotenv | Database credentials loaded from a `.env` file |
 | PostgreSQL | Normalized relational database (`sigb_db`) |
 | pgAdmin | Validation queries on the loaded data |
-| Power BI + DAX | Data model, measures and dashboard |
+| Power BI  |  dashboards |
 | Visual Studio Code | Development environment |
 
 
